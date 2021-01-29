@@ -70,3 +70,23 @@ Exemplo:
     "consumoMedioRodovia": 11.2
 }
 ```
+
+## Exemplo de execução pelo Postman
+
+#### Listar veiculo (sem ter cadastrado)
+![listarVazio](https://user-images.githubusercontent.com/15754200/106294302-c601f700-622d-11eb-99e9-cc38024ffdff.png)
+
+#### Inserir dados de teste
+![inserirDadosTeste](https://user-images.githubusercontent.com/15754200/106294838-6c4dfc80-622e-11eb-97b2-71f97369e1e1.png)
+
+#### Listar veiculos cadastrados
+![listarPreenchidoAtualizado](https://user-images.githubusercontent.com/15754200/106295017-acad7a80-622e-11eb-9864-03a973153a08.png)
+
+#### Salvar veiculo
+![salvar](https://user-images.githubusercontent.com/15754200/106294636-298c2480-622e-11eb-9e09-80bb07fa0bcc.png)
+
+#### Salvar veículo parametro
+![salvarParametros](https://user-images.githubusercontent.com/15754200/106294904-8687da80-622e-11eb-814c-dc9a41060d33.png)
+
+#### Cálculo de previsão
+![calculoPrevisao](https://user-images.githubusercontent.com/15754200/106295087-c3ec6800-622e-11eb-8ce1-5bd890ac529a.png)
