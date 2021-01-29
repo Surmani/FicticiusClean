@@ -89,4 +89,4 @@ Exemplo:
 ![salvarParametros](https://user-images.githubusercontent.com/15754200/106294904-8687da80-622e-11eb-814c-dc9a41060d33.png)
 
 #### Cálculo de previsão
-![calculoPrevisao](https://user-images.githubusercontent.com/15754200/106295087-c3ec6800-622e-11eb-8ce1-5bd890ac529a.png)
+![calculoPrevisao](https://user-images.githubusercontent.com/15754200/106298327-84c01600-6232-11eb-8dfc-d1a810b98eb5.png)
