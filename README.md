@@ -13,8 +13,9 @@ O projeto foi desenvolvido em java 8.
 -----------------------------------
 #### Linux - Terminal
 -----------------------------------
-1. Acessar o local onde fica o arquivo .jar do projeto /projeto/FicticiusClean-0.0.1-SNAPSHOT.jar
-2. Executar o comando java -jar "nomeArquivo.jar"
+1. Baixar o arquivo .jar do repository que fica na pasta /projeto/
+2. Acessar o local onde onde foi baixado FicticiusClean-0.0.1-SNAPSHOT.jar
+3. Executar o comando java -jar "nomeArquivo.jar"
 -----------------------------------
 #### Windows 
 -----------------------------------
@@ -37,13 +38,13 @@ localhost:8080/api/veiculo/inserirDadosTeste
 ```
 __Cadastra um veiculo através de parametros__
 ```
-localhost:8080/api/veiculo/salvarParametros?nome="nomeVeiculo"&marca="marcaVeiculo"&modelo="modeloVeiculo"&dataFabricacao="dd/MM/yyyy"&consumoMedioCidade="valor"&consumoMedioRodovia="valor" - 
+localhost:8080/api/veiculo/salvarParametros?nome="nomeVeiculo"&marca="marcaVeiculo"&modelo="modeloVeiculo"&dataFabricacao="dd/MM/yyyy"&consumoMedioCidade="valor"&consumoMedioRodovia="valor"
 ```
 OBS: inserir cada campo sem aspas, exemplo: ...nome=Fox&...dataFabricacao=01/02/2020...
 
 __Calcula da previsão (como é entrega de produto, foi calculado com "ida e volta")__
 ```
-localhost:8080/api/veiculo/previsao?precoGasolina="valor"&kmCidade="valor"&kmRodovia="valor" ->  
+localhost:8080/api/veiculo/previsao?precoGasolina="valor"&kmCidade="valor"&kmRodovia="valor"
 ```
 OBS:o "valor" deve ser substituido por valor em double, por exemplo: ...precoGasolina=3.45&kmCidade=5...
 
