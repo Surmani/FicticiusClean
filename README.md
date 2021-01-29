@@ -57,6 +57,7 @@ __Cadastra um veículo, porém deve ser passado o veículo através do "body" em
 localhost:8080/api/veiculo/salvar
 ```
 Exemplo: 
+```
 {
     "nome": "nome_teste",
     "marca": "marca_teste",
@@ -65,3 +66,4 @@ Exemplo:
     "consumoMedioCidade": 7.5,
     "consumoMedioRodovia": 11.2
 }
+```
