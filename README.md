@@ -44,7 +44,7 @@ localhost:8080/api/veiculo/salvarParametros?nome="nomeVeiculo"&marca="marcaVeicu
 ```
 OBS: inserir cada campo sem aspas, exemplo: ...nome=Fox&...dataFabricacao=01/02/2020...
 
-__Calcula da previsão (como é entrega de produto, foi calculado com "ida e volta")__
+__Calcula da previsão __
 ```
 localhost:8080/api/veiculo/previsao?precoGasolina="valor"&kmCidade="valor"&kmRodovia="valor"
 ```
