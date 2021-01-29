@@ -1,6 +1,6 @@
-/home/lucas/Workspaces/Estudos/FicticiusClean/src/main/java/com/ficticius/controller/VeiculoController.java
-/home/lucas/Workspaces/Estudos/FicticiusClean/src/main/java/com/ficticius/repository/VeiculoRepository.java
-/home/lucas/Workspaces/Estudos/FicticiusClean/src/main/java/com/ficticius/model/VeiculoVO.java
-/home/lucas/Workspaces/Estudos/FicticiusClean/src/main/java/com/ficticius/model/Veiculo.java
-/home/lucas/Workspaces/Estudos/FicticiusClean/src/main/java/com/ficticius/FicticiusCleanApplication.java
-/home/lucas/Workspaces/Estudos/FicticiusClean/src/main/java/com/ficticius/service/PrevisaoGastosService.java
+/home/lucas/git/FicticiusClean/src/main/java/com/ficticius/service/PrevisaoGastosService.java
+/home/lucas/git/FicticiusClean/src/main/java/com/ficticius/FicticiusCleanApplication.java
+/home/lucas/git/FicticiusClean/src/main/java/com/ficticius/model/VeiculoVO.java
+/home/lucas/git/FicticiusClean/src/main/java/com/ficticius/controller/VeiculoController.java
+/home/lucas/git/FicticiusClean/src/main/java/com/ficticius/model/Veiculo.java
+/home/lucas/git/FicticiusClean/src/main/java/com/ficticius/repository/VeiculoRepository.java

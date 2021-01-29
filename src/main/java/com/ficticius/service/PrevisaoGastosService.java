@@ -35,7 +35,7 @@ public class PrevisaoGastosService {
 	private Double calcularCombustivelGasto(Veiculo veiculo, Double kmCidade, Double kmRodovia) {
 		Double combustivelGastoCidade = kmCidade/veiculo.getConsumoMedioCidade();
 		Double combustivelGastoRodovia = kmRodovia/veiculo.getConsumoMedioRodovia();
-		return Precision.round((combustivelGastoCidade + combustivelGastoRodovia) * 2, 3); //Ida e volta
+		return Precision.round((combustivelGastoCidade + combustivelGastoRodovia), 3); //Ida e volta
 	}
 	
 }
