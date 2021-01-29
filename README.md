@@ -15,11 +15,13 @@ O projeto foi desenvolvido em java 8.
 -----------------------------------
 1. Baixar o arquivo .jar do repository que fica na pasta /projeto/
 2. Acessar o local onde onde foi baixado FicticiusClean-0.0.1-SNAPSHOT.jar
-3. Executar o comando java -jar "nomeArquivo.jar"
+3. Executar o comando java -jar "nomeArquivo.jar" no terminal
 -----------------------------------
 #### Windows 
 -----------------------------------
-
+1. Baixar o arquivo .jar do repository que fica na pasta /projeto/
+2. Acessar o local onde onde foi baixado FicticiusClean-0.0.1-SNAPSHOT.jar
+3. Executar o comando java -jar "nomeArquivo.jar" no Prompt de Comando
 -----------------------------------
 
 ### Executar os comandos - a porta de acesso é a 8080 - URL: localhost:8080/api/veiculo...
