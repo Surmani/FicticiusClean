@@ -27,29 +27,34 @@ Foi utilizado o Postman para facilitar a execução dos dados, mas é possível 
 
 #### URLs:
 
+__Mostra veiculos cadastrados__
 ```
-localhost:8080/api/veiculo/listar -> Para mostrar os veículos cadastrados
+localhost:8080/api/veiculo/listar
 ```
-
+__Criar 5 veiculos com dados ficticios (dados de teste criados)__
 ```
-localhost:8080/api/veiculo/inserirDadosTeste -> Dados de teste criados (5 veiculos com dados ficticios)
+localhost:8080/api/veiculo/inserirDadosTeste
 ```
-
+__Cadastra um veiculo através de parametros__
 ```
 localhost:8080/api/veiculo/salvarParametros?nome="nomeVeiculo"&marca="marcaVeiculo"&modelo="modeloVeiculo"&dataFabricacao="dd/MM/yyyy"&consumoMedioCidade="valor"&consumoMedioRodovia="valor" - 
 ```
-OBS: inserir cada campo sem aspas, exemplo: ...nome=Fox&...dataFabricacao=01/02/2020... -> cadastra um veiculo através de parametros
+OBS: inserir cada campo sem aspas, exemplo: ...nome=Fox&...dataFabricacao=01/02/2020...
+
+__Calcula da previsão (como é entrega de produto, foi calculado com "ida e volta")__
+```
+localhost:8080/api/veiculo/previsao?precoGasolina="valor"&kmCidade="valor"&kmRodovia="valor" ->  
+```
+OBS:o "valor" deve ser substituido por valor em double, por exemplo: ...precoGasolina=3.45&kmCidade=5...
+
+__Busca o veiculo com determinado id (id é gerado automaticamente após o cadastro do veículo)__
 
 ```
-localhost:8080/api/veiculo/previsao?precoGasolina="valor"&kmCidade="valor"&kmRodovia="valor" -> calculo da previsão (como é entrega de produto, foi calculado com "ida e volta"); o "valor" deve ser substituido por valor em double, por exemplo: ...precoGasolina=3.45&kmCidade=5...
+localhost:8080/api/veiculo/"id"
 ```
-
+__Cadastra um veículo, porém deve ser passado o veículo através do "body" em formato json, como segue o exemplo abaixo:__
 ```
-localhost:8080/api/veiculo/"id" -> busca o veiculo com determinado id (id é gerado automaticamente após o cadastro do veiculo)
-```
-
-```
-localhost:8080/api/veiculo/salvar -> cadastra um veiculo, porém deve ser passado o veiculo através do "body" em formato json:
+localhost:8080/api/veiculo/salvar
 ```
 Exemplo: 
 {
